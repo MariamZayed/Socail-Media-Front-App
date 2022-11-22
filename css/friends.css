@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#body {
+    background-color: #f3f4f6;
+}
+
+#body .nav-body {
+    margin: 5px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+#body .nav-body h1 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#body .card-details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#body .card-details .user-card {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    align-items: stretch;
+    padding-bottom: 55px;
+    flex-basis: 24%;
+}
+
+#body .card-details .user-card img {
+    width: 60px;
+    height: 60px;
+}
+
+#body .card-details .user-card h1 {
+    font-size: 1rem;
+}
+
+#body .card-details .user-card p {
+    font-size: 0.7rem;
+    color: #c3c9cf;
+}
+
+#body .card-details .user-card a {
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    display: block;
+    width: 60%;
+    margin: 25px auto 0;
+    padding: 10px 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#body .card-details .user-card a.friend {
+    background-color: #e50202;
+}
+
+#body .card-details .user-card a.not-friend {
+    background-color: #10d876;
+}
