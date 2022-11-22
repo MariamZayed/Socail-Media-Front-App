@@ -20,9 +20,10 @@ html {
 }
 
 #body .nav-body {
-    margin: 5px auto;
-    padding: 10px 0;
+    margin: 5px auto 15px;
+    padding: 5px 0;
     text-align: center;
+    background-color: #fff;
 }
 
 
