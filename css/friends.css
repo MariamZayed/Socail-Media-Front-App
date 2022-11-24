@@ -10,13 +10,14 @@ html {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+#body {
+    padding-top: 80px;
+    background-color: #f3f4f6;
 }
 
-#body {
-    background-color: #f3f4f6;
+#body .container {
+    width: 800px;
+    margin: 0 auto;
 }
 
 #body .nav-body {
@@ -25,7 +26,6 @@ html {
     text-align: center;
     background-color: #fff;
 }
-
 
 #body .nav-body h1 {
     text-transform: capitalize;

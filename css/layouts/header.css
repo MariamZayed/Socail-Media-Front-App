@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+}
+
+header .container {
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    float: left;
+    align-items: center;
+}
+
+nav>ul:nth-of-type(2) {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    padding-left: 28px;
+}
+
+header nav {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.sec-section {
+    padding-left: 150px;
+
+}
+
+.last-sec-section {
+    padding-right: 20px;
+}
+
+form {
+    top: 50%;
+    transform: translateY(30%);
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+input {
+    background-color: #d0cccc;
+    border-radius: 25px;
+    height: 30px;
+    width: 325px;
+    padding: 5px;
+    border: none;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+header nav .form i {
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    transform: translateY(-45%);
+}
+
+.section-one {
+    top: 50%;
+    /* transform: translateY(4%); */
+}
+
+.sec-section,
+.sec-section-two,
+.sec-section-last {
+    top: 50%;
+    display: flex;
+    align-items: center;
+}
