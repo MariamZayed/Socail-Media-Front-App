@@ -1,17 +1,17 @@
-*{
+* {
     border-radius: 15px;
 }
 
-html{
+html {
     font-family: 'Montserrat';
 }
 
-a{
+a {
     text-decoration: none;
-    color:rgb(84, 81, 81);
+    color: rgb(84, 81, 81);
 }
 
-.container{
+main .container {
     border-radius: 0;
     margin: 0;
     padding: 0;
@@ -21,33 +21,35 @@ a{
     justify-content: center;
 }
 
-.topNav{
+.topNav {
     grid-column: 1/6;
     background-color: #fff;
     border-radius: 0;
     height: 95px;
     position: fixed;
     width: 100%;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.03);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .03);
 }
 
-.sideNav{
+.sideNav {
     border-right: 1px solid green;
     padding: 20px;
     border-radius: 0;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.03);
-    
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .03);
+
 }
-.sideNav>.sideNavData{
+
+.sideNav>.sideNavData {
     position: fixed;
     width: 100%;
 }
 
-.sideNav,.content{
+.sideNav,
+.content {
     margin-top: 95px;
 }
 
-.content{
+.content {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 15px;
@@ -56,51 +58,54 @@ a{
 }
 
 /* ================== Start Up Part In Content ================ */
-.up{
+.up {
     grid-column: 1/3;
     background-color: #FFFFFF;
     margin-top: 5px;
     height: 430px;
     display: grid;
     grid-template-rows: 6fr 2fr 1fr;
-    box-shadow: 0 8px 30px rgba(0,0,0,.05)
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .05)
 }
-.bgImg{
+
+.bgImg {
     background-image: url("../images/u-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    outline:2px #f1f1f1;
+    outline: 2px #f1f1f1;
     margin: 1rem;
 }
 
-.user,.nav{
+.user,
+.nav {
     border-radius: 0;
 }
-.nav{
+
+.nav {
     border-top: 1px solid #f1f1f1;
 }
 
-.user{
+.user {
     /* position: relative; */
     display: flex;
     justify-content: space-between;
 }
 
-.userImgName{
+.userImgName {
     display: flex;
     flex-direction: row;
 }
 
-.userImgName>.Uimg>img{
+.userImgName>.Uimg>img {
     width: 100px;
-    margin-top:-40px ;
+    margin-top: -40px;
     margin-left: 30px;
     background-color: #fff;
     border: 5px solid white;
     border-radius: 50%;
 }
 
-.userImgName>h4{
+.userImgName>h4 {
     margin-bottom: 3rem;
     margin-top: .5rem;
     padding-left: 15px;
@@ -110,15 +115,15 @@ a{
     font-size: 20px;
 }
 
-.userImgName>h4>span{
+.userImgName>h4>span {
     font-weight: 500;
     color: grey;
-    display:block;
+    display: block;
     line-height: 1.2rem;
     font-size: 12px;
 }
 
-.user>.RightItems{
+.user>.RightItems {
     margin-right: 25px;
     margin-bottom: 3rem;
     margin-top: .5rem;
@@ -127,25 +132,25 @@ a{
     align-items: center;
 }
 
-.user>.RightItems>a{
+.user>.RightItems>a {
     border-radius: .3rem;
     margin-right: .5rem;
     background-color: #f7f7f7;
     padding: .7rem;
 }
 
-.user>.RightItems>a>img{
+.user>.RightItems>a>img {
     width: 25px;
 }
 
-.user>.RightItems>#addFriend{
+.user>.RightItems>#addFriend {
     background-color: #10d876;
     color: #fff;
     padding: 1rem;
     text-decoration: none;
 }
 
-.up>.nav>ul>li{
+.up>.nav>ul>li {
     list-style: none;
     font-weight: 600;
     font-size: 12px;
@@ -153,7 +158,7 @@ a{
     margin-right: 40px;
 }
 
-.up>.nav>ul>li>a{
+.up>.nav>ul>li>a {
     text-decoration: none;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -161,44 +166,45 @@ a{
     border-radius: 0;
 }
 
-.up>.nav>ul>li>a:not(.active){
+.up>.nav>ul>li>a:not(.active) {
     color: #adb5bd;
 }
 
-.up>.nav>ul>li>.active{
+.up>.nav>ul>li>.active {
     border-bottom: 2px solid black;
 }
 
-.up>.nav>ul>li>a:hover{
+.up>.nav>ul>li>a:hover {
     color: black;
 }
 
-.up>.nav>ul>.active{
+.up>.nav>ul>.active {
     border-bottom: 2px solid black;
 }
+
 /* ================== End Up Part In Content ================ */
 
 
 /* ================== Start Right Part In Content ================ */
 /* ================== Start Create Post ================ */
-.right{
+.right {
     display: grid;
     grid-template-rows: 300px 1ref 300px 300px;
     gap: 15px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.05)
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .05)
 }
 
-.right>.post{
+.right>.post {
     display: grid;
     grid-template-rows: 1ref 3ref 1ref;
 }
 
-.right>.post>.a{
+.right>.post>.a {
     height: 30px;
     margin-bottom: 10px;
 }
 
-.right>.post>.a>a{
+.right>.post>.a>a {
     color: grey;
     text-decoration: none;
     font-weight: 600;
@@ -208,31 +214,31 @@ a{
     align-items: center;
 }
 
-.right>.post>.a>a>img{
-    width:20px;
+.right>.post>.a>a>img {
+    width: 20px;
     border-radius: 0;
-    background-color:#ededed;
+    background-color: #ededed;
     border-radius: 50%;
     padding: .5rem;
     margin-right: 10px;
 }
 
 
-.right>.post>.textbox{
+.right>.post>.textbox {
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid rgba(0,0,0,.125);
-}
- 
-.right>.post>.textbox>img{
-    width: 30px;
-    height: 30px;
-    margin:7px;
+    border: 1px solid rgba(0, 0, 0, .125);
 }
 
-.right>.post>.textbox>textarea{
+.right>.post>.textbox>img {
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+}
+
+.right>.post>.textbox>textarea {
     color: #adb5bd;
     width: 100%;
     /* height: 100%; */
@@ -240,10 +246,11 @@ a{
     line-height: 1.5;
     font-size: 15px;
     border: none;
+    outline: none;
 }
 
 
-.right>.post>.btns{
+.right>.post>.btns {
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -255,11 +262,11 @@ a{
     margin-top: 20px;
 }
 
-.right>.post>.btns>.leftBtns{
+.right>.post>.btns>.leftBtns {
     width: 380px;
 }
 
-.right>.post>.btns>.rightBtns{
+.right>.post>.btns>.rightBtns {
     /* width: 50px; */
     display: flex;
     justify-content: center;
@@ -269,91 +276,94 @@ a{
     height: 40px;
     border-radius: 50%;
 }
-.right>.post>.btns>.rightBtns>a>img{
+
+.right>.post>.btns>.rightBtns>a>img {
     width: 100%;
     border-radius: 0;
 }
 
 
-.right>.post>.btns>.leftBtns{
+.right>.post>.btns>.leftBtns {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
 }
 
-.right>.post>.btns>.leftBtns>.live{
+.right>.post>.btns>.leftBtns>.live {
     padding-top: 10px;
 }
 
-.right>.post>.btns>.leftBtns>.live>a{
+.right>.post>.btns>.leftBtns>.live>a {
     text-decoration: none;
     color: rgb(84, 81, 81);
     display: flex;
-    
+
     font-size: 12px;
 }
-.right>.post>.btns>.leftBtns>.live>a>img{
+
+.right>.post>.btns>.leftBtns>.live>a>img {
     border-radius: 0;
     margin-right: .5rem;
     width: 25px;
 }
 
 
-.right>.post>.btns>.leftBtns>.live>a>span{
+.right>.post>.btns>.leftBtns>.live>a>span {
     padding-top: 5px;
     vertical-align: middle;
 }
+
 /* ================== End Create Post ================ */
 
 
 /* ====================== Start Users Posts ========================== */
 /* ================== Start Post Owner ================ */
-.post>.userPost{
+.post>.userPost {
     display: grid;
     grid-template-columns: 80px 6ref 80px;
     /* gap: 15px; */
 }
 
-.postOwner{
+.postOwner {
     width: 100%;
     display: flex;
     justify-content: space-between;
     justify-items: center;
 }
 
-.postOwner>.postLeft>a{
+.postOwner>.postLeft>a {
     display: flex;
     flex-direction: row;
     height: 50px;
 }
 
-.postOwner>.postLeft>a>img{
+.postOwner>.postLeft>a>img {
     background-color: #fff;
     width: 45px;
     height: 45px;
 }
 
-.postOwner>.postLeft>a>h4{
+.postOwner>.postLeft>a>h4 {
     font-size: 12px;
     margin-left: 10px;
     margin-top: .25rem;
     line-height: 1.7;
 }
 
-.postOwner>.postLeft>a>h4>span{
+.postOwner>.postLeft>a>h4>span {
     font-size: 10px;
     color: rgb(160, 158, 158);
     display: block;
 }
 
 
-.postOwner>.postRight>a{
+.postOwner>.postRight>a {
     display: flex;
     flex-direction: row;
     /* height: 50px; */
 }
 
-.postOwner>.postRight>a>.dotsBtn{
+.postOwner>.postRight>a>.dotsBtn {
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -362,20 +372,23 @@ a{
     height: 40px;
     border-radius: 50%;
 }
-.postOwner>.postRight>a>.dotsBtn>img{
+
+.postOwner>.postRight>a>.dotsBtn>img {
     width: 100%;
     border-radius: 0;
 }
+
 /* ================== End Post Owner =================== */
 
 
 /* ================== Start Post Data ================ */
-.postData>.text{
+.postData>.text {
     width: 95%;
     padding-top: 0;
 }
 
-.postData>.media,.postData>.media>.extra{
+.postData>.media,
+.postData>.media>.extra {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -383,23 +396,26 @@ a{
     gap: 5px;
 }
 
-.postData>.media>a{
+.postData>.media>a {
     width: 32.5%;
     border-radius: 10px;
 }
-.postData>.media>.extra>a{
+
+.postData>.media>.extra>a {
     width: 49.2%;
     border-radius: 10px;
 }
 
-.postData>.media>a>img,.postData>.media>.extra>a>img{
+.postData>.media>a>img,
+.postData>.media>.extra>a>img {
     width: 100%;
 }
+
 /* ================== End Post Data =================== */
 
 
 /* ================== Start Post React ================ */
-.react{
+.react {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -408,16 +424,20 @@ a{
     border-radius: 0;
 }
 
-.reactLeft>.Like>a,.reactLeft.comment>a,.reactRight>a{
+.reactLeft>.Like>a,
+.reactLeft.comment>a,
+.reactRight>a {
     height: 25px;
 }
 
-.Like>a>img,.comment>a>img,.reactRight>a>img{
+.Like>a>img,
+.comment>a>img,
+.reactRight>a>img {
     width: 25px;
     height: 25px;
 }
 
-.react>.reactLeft>.Like{
+.react>.reactLeft>.Like {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -425,7 +445,7 @@ a{
     height: 25px;
 }
 
-.react>.reactLeft>.comment{
+.react>.reactLeft>.comment {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -433,7 +453,7 @@ a{
     height: 25px;
 }
 
-.react>.reactLeft{
+.react>.reactLeft {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -441,7 +461,7 @@ a{
     height: 25px;
 }
 
-.react>.reactRight{
+.react>.reactRight {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -456,79 +476,85 @@ a{
 
 
 /* ================== Start Left Part In Content ================ */
-.left{
+.left {
     display: grid;
     grid-template-rows: 100px 460px 500px 300px;
     gap: 15px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.05)
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .05)
 }
 
-.right>.post,.left>.data{
+.right>.post,
+.left>.data {
     background-color: #FFFFFF;
     padding: 15px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.05)
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .05)
 }
-.left,.right{
+
+.left,
+.right {
     background-color: #FFFFFF;
     padding: 15px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.05)
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .05)
 }
 
 
 /* ============== First Div =============== */
-.left>.data>.one{
+.left>.data>.one {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.left>.data>.one>.roundDiv{
+
+.left>.data>.one>.roundDiv {
     border: 6px solid #10d876;
     border-radius: 50%;
     padding: .75rem;
     margin-right: 15px;
 }
 
-.left>.data>.one>.roundDiv>span{
+.left>.data>.one>.roundDiv>span {
     font-size: 15px;
     font-weight: 600;
     color: #515184;
 }
 
-.left>.data>.one>.text>h5>span{
+.left>.data>.one>.text>h5>span {
     color: #adb5bd;
     font-size: 12px;
     line-height: 1.7;
 }
+
 /* =============== End First Div ============== */
 
 /* =============== Start Second Div ============== */
-.left>.data>.about>p{
+.left>.data>.about>p {
     font-size: 12px;
     color: #adb5bd;
     line-height: 1.9;
 }
 
-.left>.data>.settingInfo{
+.left>.data>.settingInfo {
     border-top: 1px solid #adb5bd;
     border-radius: 0;
 }
 
-.settingInfo>.setting{
+.settingInfo>.setting {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.settingInfo>.setting>img{
+.settingInfo>.setting>img {
     padding-right: 10px;
     width: 27px;
     margin-left: 0;
 }
 
-.settingInfo>.setting>h5{
+.settingInfo>.setting>h5 {
     font-size: 12px;
 }
-.settingInfo>.setting>h5>span{
+
+.settingInfo>.setting>h5>span {
     color: #adb5bd;
     display: block;
     font-size: 10;
@@ -539,37 +565,38 @@ a{
 
 
 /* =============== Start Third Div ============== */
-.data>.title{
+.data>.title {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.data>.photos{
+.data>.photos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 7px;
     padding-bottom: 10px;
 }
-.data>.photos>a{
+
+.data>.photos>a {
     width: 48%;
 }
 
-.data>.photos>a>img{
+.data>.photos>a>img {
     width: 100%;
     border-radius: 5px;
 }
 
 
-.data>.link>a{
+.data>.link>a {
     background-color: #f7f7f7;
     padding: .7rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 /* =============== End Third Div ============== */
